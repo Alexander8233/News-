@@ -1,0 +1,578 @@
+@font-face {
+  font-family: 'Inter-Light';
+  font-weight: 400;
+  src: url('Inter-Light.ttf');
+}
+@font-face {
+  font-family: 'Inter-Bold';
+  font-weight: 700;
+  src: url('Inter-Bold.ttf');
+}
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  font-weight: 800;
+  src: url('Inter-ExtraBold.ttf');
+}
+body{
+    margin: 0px;
+    padding:0px;
+    justify-content: center;
+    align-items: center;
+}
+.App{
+    width: 340px;
+    height: 400px;
+    display: flexbox;
+    margin: auto;
+    top: 50px;
+    position: relative;
+   
+}
+.pro{
+    display: inline;
+    position: relative;
+    float: right;
+    top: 15px;
+}
+.home{
+        display: none;
+        float: right;
+        top: 15px;
+        position: relative;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Inter-Light';
+        gap: 30rem;
+    }
+    .container{
+        display: flex;
+        position: relative;
+    }
+    .web{
+        display: none;
+    }
+    .mobile{
+        width: 300px;
+        height: 200px;
+    }
+    .bright{
+    font-size: 40px;
+    top: 70px;
+    margin: 0px;
+    font-weight: 800;
+    font-family: 'Inter-ExtraBold';
+    position: relative;
+    display: flex;
+    width: 80%;
+}
+.evolution{
+    position: relative;
+    display: flex;
+    left: 0px;
+    width: 80%;
+    top: 70px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+}
+.Read-more{
+    height: 35px;
+    width: 160px;
+    top: 600px;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+    letter-spacing: 5px;
+    background-color: rgb(238, 44, 44);
+    color: white;
+    position: absolute;
+}
+.New{
+    position: absolute;
+    height: 430px;
+    background-color: black;
+    width: 100%;
+    top: 680px; 
+}
+.New .head{
+    color: rgb(236, 154, 30);
+    position: relative;
+    font-size: 25px;
+    left: 20px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+}
+.New .hydrogen{
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+}
+hr{
+    position: relative;
+    width: 90%;
+    border: 1px solid;
+    top: 15px;
+    height: 3;
+    color: rgba(255, 255, 255, 0.192);
+}
+.New .catch{
+    display: flex;
+    position: relative;
+    margin: 0px;
+    width: 90%;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+    left: 20px;
+}
+.modern{
+    position: relative;
+    top: 40rem;
+  
+}
+.Retro{
+    height: 100px;
+}
+.upgrade{
+    display: flex;
+    width: 300px;
+    top: 150px;
+    position: relative;
+}
+.upgrades{
+    display:flex;
+   
+    width: 300px;
+    position: absolute;
+}
+.upgrade_{
+    display:flex;
+    width: 300px;
+    top: 280px;
+    position: absolute;
+}
+.Reviving{
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+    width: 80%;
+    display: flex;
+    top: 30px;
+}
+.given{
+ position: absolute;
+ font-size: 13px;
+ font-weight: 400;
+ font-family: 'Inter-Light';
+ top: 60px;
+ left: 37%;
+ display: flex;
+ width: 80%;
+
+}
+.when{
+    position: relative;
+    left: 29px;
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Inter-Bold';
+    color:rgba(0, 0, 0, 0.534);
+    font-weight: 700;
+}
+@media only screen and (min-width: 375px){
+     .App{
+        width: 90%;
+
+    }
+    .mobile{
+        display: flex;
+        width: 100%;
+        top: 50px;
+        position: relative;
+        height: 300px;
+    }
+     .Read-more{
+        top: 670px;
+    }
+    .New{
+        top: 750px;
+    }
+    .New .catch{
+    display: flex;
+    position: relative;
+    margin: 0px;
+    width: 80%;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+    }
+    
+}
+@media only screen and (min-width: 425px){
+    .App{
+        width: 90%;
+
+    }
+    .mobile{
+        display: flex;
+        width: 100%;
+        top: 50px;
+        position: relative;
+        height: 300px;
+    }
+    .New .catch{
+    display: flex;
+    position: relative;
+    margin: 0px;
+    width: 70%;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+    }
+   
+    
+}
+@media only screen and (min-width: 493px){
+    .Read-more{
+        top: 620px;
+    }
+    .New{
+        top: 700px;
+    }
+    
+}
+@media only screen and (min-width: 600px){
+    .App{
+        width: 90%;
+
+    }
+    .mobile{
+        display: flex;
+        width: 100%;
+        top: 50px;
+        position: relative;
+        height: 300px;
+    }
+    
+   
+    
+}
+@media only screen and (min-width: 833px){
+    .App{
+        width: 90%;
+
+    }
+    .mobile{
+        display: flex;
+        width: 100%;
+        top: 50px;
+        position: relative;
+        height: 300px;
+    }
+    .Read-more{
+        top: 550px;
+      
+    }
+    .New{
+        top: 620px;
+      
+      
+    }
+    
+}
+@media only screen and (min-width: 1024px){
+   
+.home{
+         display: block;
+        float: right;
+        top: 15px;
+        position: relative;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Inter-Light';
+        gap: 30rem;
+        margin: 0px;
+}
+.web{
+        display: block;
+         position: relative;
+         height: 260px;
+         width: 62%;
+         top: 40px;
+        
+    }
+    .container{
+        display: flex;
+        position: absolute;
+    }
+    .mobile{
+        display: none;
+    }
+    .New{
+        width: 36%;
+        top: 85px;
+        float: right;
+        left: 64%;
+    }
+.pro{
+    display: none;
+
+}
+.future{
+        display: flex;
+        top: 0px;
+    }
+.New .catch{
+    display: flex;
+    position: relative;
+    margin: 0px;
+    width: 80%;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+    }
+    .bright{
+        width: 27%;
+        top: 50px;
+    }
+    .evolution{
+        top: 50px;
+        width: 27%;
+        left: 54px;
+    }
+    .Trend{
+        right: 100px;
+        position: relative;
+    }
+    .mine{
+        right: 130px;
+        position: relative;
+    }
+    .trend{
+        right: 70px;
+        position: relative;
+    }
+    .trending{
+        right: 40px;
+        position: relative;
+    }
+    .Read-more{
+        top: 480px;
+        left: 300px;
+    }
+    .modern{
+        top: 8rem;  
+    }
+    .upgrade{
+        top: 0px;
+        left: 300px;
+    }
+    .given{
+        width: 59%;
+    }
+    .upgrade_{
+        top: 0px;
+        left: 600px;
+    }
+    .Retro{
+        height: 100px;
+    }
+
+}
+@media only screen and (min-width: 1200px){
+   .App{
+        width: 90%;
+
+    }
+.home{
+         display: block;
+        float: right;
+        top: 15px;
+        position: relative;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Inter-Light';
+        gap: 30rem;
+        margin: 0px;
+}
+.web{
+        display: block;
+         position: relative;
+         height: 260px;
+         width: 68%;
+         top: 40px;
+        
+    }
+    .container{
+        display: flex;
+        position: absolute;
+    }
+    .mobile{
+        display: none;
+    }
+    .New{
+        width: 30%;
+        top: 85px;
+        float: right;
+        left: 71%;
+    }
+.pro{
+    display: none;
+
+}
+.future{
+        display: flex;
+        top: 0px;
+    }
+.New .catch{
+    display: flex;
+    position: relative;
+    margin: 0px;
+    width: 80%;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+    }
+    .bright{
+        width: 27%;
+        top: 50px;
+    }
+    .Trend{
+        right: 100px;
+        position: relative;
+    }
+    .mine{
+        right: 130px;
+        position: relative;
+    }
+    .trend{
+        right: 70px;
+        position: relative;
+    }
+    .trending{
+        right: 40px;
+        position: relative;
+    }
+    .evolution{
+        top: 50px;
+        width: 32%;
+
+        left: 70px;
+    }
+    .Read-more{
+        top: 480px;
+        left: 360px;
+    }
+    .modern{
+        top: 8rem;  
+    }
+    .upgrade{
+        top: 0px;
+        left: 360px;
+    }
+    .given{
+        width: 59%;
+    }
+    .upgrade_{
+        top: 0px;
+        left: 760px;
+    }
+    .Retro{
+        height: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 1440px){
+.home{
+         display: block;
+        float: right;
+        top: 15px;
+        position: relative;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Inter-Light';
+        gap: 30rem;
+        margin: 0px;
+}
+.web{
+        display: block;
+         position: relative;
+         height: 260px;
+         width: 66%;
+         top: 40px;
+        
+    }
+    .container{
+        display: flex;
+        position: absolute;
+    }
+    .bright{
+        width: 40%;
+        top: 50px;
+    }
+    .mobile{
+        display: none;
+    }
+    .Read-more{
+        top: 480px;
+        left: 430px;
+    }
+    .evolution{
+        top: 50px;
+        width: 40%;
+        left: 200px;
+    }
+    .New{
+        width: 32%;
+        top: 85px;
+        height: 430px;
+        float: right;
+        left: 69%;
+    }
+    .New .catch{
+    display: flex;
+    position: relative;
+    margin: 0px;
+    width: 70%;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Inter-Light';
+    }
+    .bright{
+        width: 20%;
+    }
+    .evolution{
+        width: 25%;
+    }
+    .future{
+        display: flex;
+    }
+.pro{
+    display: none;
+
+}
+.upgrade{
+        top: 0px;
+        left: 400px;
+    }
+    .given{
+        width: 59%;
+    }
+    .upgrade_{
+        top: 0px;
+        left: 800px;
+    }
+}
